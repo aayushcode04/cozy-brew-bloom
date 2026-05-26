@@ -1,5 +1,8 @@
 import { Link } from "@tanstack/react-router";
-import { Coffee, Instagram, Facebook, Twitter, Mail, MapPin, Phone } from "lucide-react";
+import { Coffee, Mail, MapPin, Phone } from "lucide-react";
+import { InstagramIcon, FacebookIcon, TwitterIcon } from "./icons/Social";
+
+const socials = [InstagramIcon, FacebookIcon, TwitterIcon];
 
 export function Footer() {
   return (
