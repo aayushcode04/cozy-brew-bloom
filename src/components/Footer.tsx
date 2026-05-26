@@ -23,7 +23,7 @@ export function Footer() {
             time in cups, conversations, and the smell of freshly ground beans.
           </p>
           <div className="mt-6 flex gap-3">
-            {[Instagram, Facebook, Twitter].map((Icon, i) => (
+            {socials.map((Icon, i) => (
               <a key={i} href="#" aria-label="social" className="grid h-10 w-10 place-items-center rounded-full border border-cream/15 transition hover:border-gold hover:text-gold">
                 <Icon className="h-4 w-4" />
               </a>
